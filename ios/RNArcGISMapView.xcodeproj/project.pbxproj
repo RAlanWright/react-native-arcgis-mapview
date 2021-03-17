@@ -36,6 +36,7 @@
 		FAACB6E6220CC03900B7F583 /* RNArcGISMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNArcGISMapView.swift; sourceTree = "<group>"; };
 		FAACB6E8220CC03900B7F583 /* RNArcGISMapViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNArcGISMapViewManager.swift; sourceTree = "<group>"; };
 		FAACB6E9220CC03900B7F583 /* RNArcGISMapViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNArcGISMapViewManager.m; sourceTree = "<group>"; };
+		7B9EFA135ECA4E3C88DE1A8D /* RNArcGISMapView.xcodeproj */ = {isa = PBXFileReference; name = "RNArcGISMapView.xcodeproj"; path = "../node_modules/react-native-arcgis-mapview/ios/RNArcGISMapView.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				FAACB6E4220CC03900B7F583 /* src */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				FCF5A6A6E126424F8CF5DD37 /* Libraries */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +88,15 @@
 			);
 			path = RNArcGISMapViewManager;
 			sourceTree = "<group>";
+		};
+		FCF5A6A6E126424F8CF5DD37 /* Libraries */ = {
+			isa = "PBXGroup";
+			children = (
+				7B9EFA135ECA4E3C88DE1A8D /* RNArcGISMapView.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -113,7 +124,7 @@
 		58B511D31A9E6C8500147676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 830;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
